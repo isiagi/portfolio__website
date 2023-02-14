@@ -1,0 +1,30 @@
+
+.hero__container {
+  background-color: #FEFAFA;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+.hero__h1 {
+    color: #002D5B;
+    max-width: 500px;
+    font-size: 3rem;
+}
+
+.hero__para {
+  color: rgb(60, 59, 59);
+  line-height: 30px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.hero__second > img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
