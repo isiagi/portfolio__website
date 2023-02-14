@@ -1,0 +1,36 @@
+.services__container {
+  background-color: #fefafa;
+  padding-bottom: 5rem;
+}
+
+.service__h2 {
+  color: #002d5b;
+  /* font-size: 2.2rem; */
+  margin-block: 2rem;
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.service__item {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.service__icon {
+  margin-block: 2rem;
+}
+
+.service__para {
+  line-height: 30px;
+  color: rgb(60, 59, 59);
+}
+
+.service__button{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
