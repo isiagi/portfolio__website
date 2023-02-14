@@ -1,0 +1,9 @@
+.button__btn {
+    padding: 16px 24px;
+    background-color:#E95A53;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 10px;
+  }
