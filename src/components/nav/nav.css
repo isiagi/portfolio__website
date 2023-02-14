@@ -1,0 +1,22 @@
+.nav__container {
+  min-height: 10vh;
+  display: flex;
+  /* position: fixed;
+  width: 100%; */
+  background-color: #FEFAFA;
+  box-shadow: 0 1px 1px -1px rgb(165, 165, 165);
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: rgb(60, 59, 59);
+}
+
+.nav__ul ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
