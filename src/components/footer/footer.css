@@ -1,0 +1,22 @@
+.footer__container {
+    min-height: 40vh;
+    background-color: #002d5b;
+}
+
+.footer__wrapper{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 4rem;
+}
+
+.footer__links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer__last{
+    color: #fff;
+    text-align: center;
+}
