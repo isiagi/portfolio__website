@@ -1,0 +1,22 @@
+.header__wrapper {
+  text-align: center;
+  padding-top: 5rem;
+  line-height: 60px;
+  padding-bottom: 3rem;
+}
+
+.header__h2 {
+  color: #002d5b;
+  font-size: 2.2rem;
+}
+
+.header__para {
+  color: rgb(60, 59, 59);
+}
+
+.header__under {
+  background-color: #e95a53;
+  width: 10%;
+  height: 3px;
+  margin: 0 auto;
+}
