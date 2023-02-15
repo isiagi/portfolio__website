@@ -22,7 +22,9 @@
 }
 
 .service__icon {
-  margin-block: 2rem;
+  margin-block: 3rem;
+  font-size: 3rem;
+  color:#E95A53
 }
 
 .service__para {

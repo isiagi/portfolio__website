@@ -1,5 +1,9 @@
 import Button from "../button/Button";
 import Header from "../header/Header";
+import {FaLaptopCode} from 'react-icons/fa'
+import {BsCloudCheckFill} from 'react-icons/bs'
+import {ImMobile2} from 'react-icons/im'
+
 import "./service.css";
 
 type Props = {};
@@ -14,7 +18,7 @@ function Services({}: Props) {
       <div className="middle services__wrapper">
         <div className="services__grid">
           <div className="service__item">
-            <h2 className="service__icon">Icon</h2>
+            <h2 className="service__icon"><FaLaptopCode /></h2>
             <h2 className="service__h2">Web Development</h2>
             <p className="service__para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -26,7 +30,7 @@ function Services({}: Props) {
           </div>
 
           <div className="service__item">
-            <h2 className="service__icon">Icon</h2>
+            <h2 className="service__icon"><BsCloudCheckFill /></h2>
             <h2 className="service__h2">Cloud Development</h2>
             <p className="service__para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
@@ -38,7 +42,7 @@ function Services({}: Props) {
           </div>
 
           <div className="service__item">
-            <h2 className="service__icon">Icon</h2>
+            <h2 className="service__icon"><ImMobile2 /></h2>
             <h2 className="service__h2">Mobile Development</h2>
             <p className="service__para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
