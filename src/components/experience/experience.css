@@ -1,0 +1,12 @@
+.exp__flex {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.exp__img {
+    width: 120px;
+}
