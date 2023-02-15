@@ -13,10 +13,46 @@
   align-items: center;
   width: 100%;
   color: rgb(60, 59, 59);
+  position: relative;
 }
 
 .nav__ul ul {
   display: flex;
   gap: 2rem;
   list-style: none;
+}
+
+.nav__icons {
+  display: none;
+}
+
+.nav__icon {
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 991px) {
+  .nav__icons {
+    display: block;
+  }
+  
+  .nav__ul {
+    position: absolute;
+    top: calc(100%) + 5vh;
+    top: calc(100%);
+    background-color: rgb(120, 119, 119);
+    width: 100%;
+    text-align: center;
+    left: -150%;
+    padding-top: 2rem;
+    transition: 0.7s ease;
+  }
+
+  .nav__ul ul {
+    flex-direction: column;
+  }
+
+  .nav__ul.active {
+    left: 0;
+  }
 }
