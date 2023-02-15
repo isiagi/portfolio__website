@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     padding-block: 4rem;
+    flex-wrap: wrap;
 }
 
 .footer__links{
