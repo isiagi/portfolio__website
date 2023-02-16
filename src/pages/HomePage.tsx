@@ -1,4 +1,4 @@
-import About from "../components/about/About";
+import About from "../components/about";
 import Experience from "../components/experience/Experience";
 import Hero from "../components/hero/Hero";
 import Port from "../components/port/Port";

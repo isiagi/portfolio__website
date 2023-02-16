@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
+import AboutPage from "./about/AboutPage";
 import HomePage from "./HomePage";
 
 function index() {
@@ -12,6 +13,7 @@ function index() {
         <Routes>
           <Route element={<HomePage />} path="/" />
           <Route element={<Contact />} path="/contact" />
+          <Route element={<AboutPage />} path="/about" />
         </Routes>
         <Footer />
       </Router>

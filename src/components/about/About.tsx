@@ -11,10 +11,7 @@ function About({}: Props) {
   return (
     <div className="about__container">
       <div className="middle about__wrappeer">
-        <Header
-          text="About Me"
-          para="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        />
+        
         <div className="about__content">
           <div className="about__text">
             <h2 className="about__h2 para1">

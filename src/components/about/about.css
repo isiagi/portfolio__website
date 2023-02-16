@@ -1,3 +1,7 @@
+.about__wrappeer {
+  padding-bottom: 4rem;
+}
+
 .about__all {
   display: flex;
   flex-wrap: wrap;
