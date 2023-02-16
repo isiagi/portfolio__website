@@ -1,13 +1,17 @@
-import "./button.css"
+import { Link } from "react-router-dom";
+import "./button.css";
 
 type Props = {
   name: string;
+  to?: string;
 };
 
-function Button({ name }: Props) {
+function Button({ name, to }: Props) {
   return (
     <div>
-      <button className="button__btn">{name}</button>
+      <Link to={`${to}`}>
+        <button className="button__btn">{name}</button>
+      </Link>
     </div>
   );
 }

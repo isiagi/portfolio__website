@@ -1,11 +1,3 @@
-.mini {
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e1e4e7;
-  margin-bottom: 4rem;
-}
 
 .contact__container {
   background-color: #fefafa;

@@ -4,15 +4,14 @@ import { HiOutlineMail } from "react-icons/hi";
 
 import "./contact.css";
 import Button from "../button/Button";
+import Min from "../min/Min";
 
 type Props = {};
 
 function Contact({}: Props) {
   return (
     <div className="contact__container">
-      <div className="mini">
-        <h2>Contact</h2>
-      </div>
+      <Min />
       <div className="middle contact__wrapper">
         <img src="" alt="" />
         <div className="contact__grid">
