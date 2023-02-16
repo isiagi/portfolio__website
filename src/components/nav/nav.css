@@ -1,8 +1,17 @@
 .nav__container {
-  min-height: 10vh;
+  min-height: 11vh;
   display: flex;
   /* position: fixed;
   width: 100%; */
+  background-color: #FEFAFA;
+  box-shadow: 0 1px 1px -1px rgb(165, 165, 165);
+}
+
+.nav__container1 {
+  min-height: 11vh;
+  display: flex;
+  position: fixed;
+  width: 100%;
   background-color: #FEFAFA;
   box-shadow: 0 1px 1px -1px rgb(165, 165, 165);
 }

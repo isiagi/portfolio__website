@@ -3,13 +3,14 @@ import Button from "../button/Button";
 import { CgDetailsMore } from "react-icons/cg";
 import { ImCancelCircle } from "react-icons/im";
 import "./nav.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Nav() {
   const [open, setOpen] = useState(false);
+  const [offset] = windowOffSet();
 
   return (
-    <nav className="nav__container">
+    <nav className={offset > 20 ? "nav__container1" : "nav__container"}>
       <div className="middle nav__wrapper">
         <div className="nav__header">
           <Link to="/">
@@ -49,3 +50,15 @@ function Nav() {
 }
 
 export default Nav;
+
+function windowOffSet() {
+  const [offset, setOffSet] = useState<number>(0);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffSet(window.scrollY);
+    };
+  }, []);
+
+  return [offset] as const;
+}
