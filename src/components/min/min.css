@@ -1,0 +1,14 @@
+.mini {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e4e7;
+  margin-bottom: 4rem;
+}
+
+.mini__title {
+  color: #002d5b;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
