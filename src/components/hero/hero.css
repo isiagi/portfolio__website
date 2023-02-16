@@ -1,19 +1,28 @@
 
 .hero__container {
-  background-color: #FEFAFA;
+  /* background-color: #FEFAFA; */
+  background: linear-gradient(rgba(254, 250, 250, 0.6), rgba(254, 250, 250, 0.6)), url('../../assets/hero_isiagi_geofrey.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero__wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding-top: 6rem;
-  padding-bottom: 5rem;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* padding-top: 6rem;
+  padding-bottom: 5rem; */
+
 }
 
 .hero__h1 {
     color: #002D5B;
-    max-width: 500px;
-    font-size: 3rem;
+    max-width: 600px;
+    font-size: 3.4em;
+    font-weight: 500;
 }
 
 .hero__para {
@@ -21,6 +30,7 @@
   line-height: 30px;
   margin-top: 1rem;
   margin-bottom: 3rem;
+  max-width: 600px;
 }
 
 .hero__second > img {
