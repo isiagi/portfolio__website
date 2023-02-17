@@ -1,17 +1,19 @@
 import React from "react";
 import Header from "../header/Header";
+import DownloadButton from "../button/DownloadButton";
 import aboutImage from "../../assets/about_isiagi_geofrey.jpg";
 
 import "./about.css";
 import Button from "../button/Button";
 
-type Props = {};
+type Props = {
+  Notpage?: boolean;
+};
 
-function About({}: Props) {
+function About({ Notpage }: Props) {
   return (
     <div className="about__container">
       <div className="middle about__wrappeer">
-        
         <div className="about__content">
           <div className="about__text">
             <h2 className="about__h2 para1">
@@ -41,7 +43,14 @@ function About({}: Props) {
                 </p>
               </div>
             </div>
-            <Button name="Learn More" />
+            {Notpage ? (
+              <Button name="Learn More" />
+            ) : (
+              <DownloadButton
+                name="Get CV"
+                to="/files/Geofrey_Isiagi_CV (8).pdf"
+              />
+            )}
           </div>
           <div className="about__image">
             <img src={aboutImage} alt="hero_isiagi_geofrey.jpg" />

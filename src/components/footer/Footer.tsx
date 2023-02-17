@@ -1,4 +1,4 @@
-import Button from "../button/Button";
+import DownloadButton from "../button/DownloadButton"
 import "./footer.css";
 
 type Props = {};
@@ -17,7 +17,7 @@ function Footer({}: Props) {
         </div>
         <div className="last">
           <h2 style={{ marginBottom: "1rem",fontWeight:"500" }}>isiagigeofrey0@gmail.com</h2>
-          <Button name="Get CV" />
+          <DownloadButton name="Get CV" to="/files/Geofrey_Isiagi_CV (8).pdf"/>
         </div>
       </div>
       <div className="footer__last">

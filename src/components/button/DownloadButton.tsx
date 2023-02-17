@@ -4,13 +4,12 @@ import "./button.css";
 type Props = {
   name: string;
   to?: string;
-  downloadable?: boolean;
 };
 
-function Button({ name, to, downloadable }: Props) {
+function Button({ name, to }: Props) {
   return (
     <div>
-      <Link to={`${to}`}>
+      <Link to={`${to}`} target="_blank" download>
         <button className="button__btn">{name}</button>
       </Link>
     </div>
