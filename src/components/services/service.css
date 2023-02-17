@@ -1,5 +1,5 @@
 .services__container {
-  background-color: #fefafa;
+  background-color: #f3f1f1;
   padding-bottom: 5rem;
 }
 
@@ -23,14 +23,25 @@
 }
 
 .service__icon {
-  margin-block: 3rem;
-  font-size: 3rem;
-  color:#E95A53
+  /* margin-top: 4rem; */
+  font-size: 2.5rem;
+  color:#E95A53;
+  width: 80px;
+  height: 80px;
+  background: #f3f1f1;
+  border-radius: 50%;
+  margin: 2rem auto;
+  display: flex;
+  align-items:center;
+  justify-content: center;
 }
 
 .service__para {
   line-height: 30px;
   color: rgb(60, 59, 59);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .service__button{
