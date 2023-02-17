@@ -10,8 +10,8 @@ function AboutPage({}: Props) {
   return (
     <div className="about__container">
       <div className="about__wrapper">
-        <Min />
-        <About />
+        <Min name="About"/>
+        <About Notpage={false}/>
         <Experience />
         <Services />
       </div>

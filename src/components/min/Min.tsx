@@ -1,12 +1,14 @@
 import "./min.css";
 
-type Props = {};
+type Props = {
+  name: string;
+};
 
-function Min({}: Props) {
+function Min({name}: Props) {
   return (
     <div>
       <div className="mini">
-        <h2 className="mini__title">Contact</h2>
+        <h2 className="mini__title">{name}</h2>
       </div>
     </div>
   );
