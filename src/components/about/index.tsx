@@ -11,7 +11,7 @@ function Index({}: Props) {
         text="About Me"
         para="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       />
-      <About />
+      <About Notpage={true}/>
     </div>
   );
 }
