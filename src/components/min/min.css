@@ -3,7 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e1e4e7;
+  /* background-color: #e1e4e7; */
+  background: linear-gradient(rgba(254, 250, 250, 0.6), rgba(254, 250, 250, 0.6)),url("../../assets/job.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 4rem;
 }
 
