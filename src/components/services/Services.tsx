@@ -24,16 +24,16 @@ function Services({}: Props) {
             </h2>
             <h2 className="service__h2">Web Development</h2>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
 
             <div className="service__button">
@@ -47,16 +47,16 @@ function Services({}: Props) {
             </h2>
             <h2 className="service__h2">Cloud Development</h2>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <div className="service__button">
               <Button name="Hire Me" />
@@ -69,16 +69,16 @@ function Services({}: Props) {
             </h2>
             <h2 className="service__h2">Mobile Development</h2>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <p className="service__para">
-              <HiOutlineArrowNarrowRight /> Lorem ipsum dolor sit amet.
+              <HiOutlineArrowNarrowRight className="service__iconz"/> Lorem ipsum dolor sit amet.
             </p>
             <div className="service__button">
               <Button name="Hire Me" />
