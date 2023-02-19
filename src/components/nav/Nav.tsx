@@ -10,11 +10,11 @@ function Nav() {
   const [offset] = windowOffSet();
 
   return (
-    <nav className={offset > 20 ? "nav__container1" : "nav__container"}>
+    <nav className={offset > 50 ? "nav__container1" : "nav__container"}>
       <div className="middle nav__wrapper">
         <div className="nav__header">
           <Link to="/">
-            <h1>Isiagi Geofrey</h1>
+            <h1 style={{color: '#002D5B'}}>Isiagi Geofrey</h1>
           </Link>
         </div>
         <div className={`nav__ul ${open ? "active" : ""}`}>
