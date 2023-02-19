@@ -1,10 +1,33 @@
+.port__wrapper {
+  padding-bottom: 4rem;
+}
+
 .port__buttons {
   display: flex;
   gap: 1rem;
+  padding: 0 1rem;
 }
 
 .port__details {
-  padding-block: 1rem;
+  padding: 0rem 1rem;
+  padding-top: 1rem;
+  line-height: 1.6rem;
+  color: rgb(60, 59, 59);
+}
+
+.port__item {
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 5px;
+}
+
+/* .port__img {
+  height: 200px;
+} */
+
+.port__img > img{
+  border-radius: 5px 5px 0px 0px;
+  /* height: 100%; */
+  object-fit: contain;
 }
 
 .port__buttons {

@@ -10,7 +10,7 @@ type Props = {};
 function Port({}: Props) {
   return (
     <div className="port__container">
-      <div className="middle port__wrapper">
+      <div className="port__wrapper">
         <div className="port__grid">
           <div className="port__item">
             <div className="port__img">
