@@ -47,7 +47,7 @@ function About({ Notpage }: Props) {
               <Button name="Learn More" />
             ) : (
               <DownloadButton
-                name="Get CV"
+                name="Download CV"
                 to="/files/Geofrey_Isiagi_CV (8).pdf"
               />
             )}

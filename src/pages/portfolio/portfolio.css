@@ -1,0 +1,7 @@
+.portz__buttons {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}

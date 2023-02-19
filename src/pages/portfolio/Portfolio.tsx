@@ -1,21 +1,26 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 import Button from "../../components/button/Button";
 import Min from "../../components/min/Min";
-import Port from "../../components/port/Port";
+import DownloadButton from "../../components/button/DownloadButton";
+
+import "./portfolio.css"
 
 type Props = {};
 
 function Portfolio({}: Props) {
   return (
     <div className="portfolio__container">
-      <div className="portfolio__wrapper">
-        <Min name="Portfolio"/>
-        <div className="port__buttons">
+      <Min name="Portfolio" />
+      <div className="middle portfolio__wrapper">
+        <div className="portz__buttons">
           <Button name="Projects" to="/portfolio/projects" />
           <Button name="YouTube" to="/portfolio/youtube" />
+          <DownloadButton
+            name="Download CV"
+            to="/files/Geofrey_Isiagi_CV (8).pdf"
+          />
         </div>
-        <div className=" middle portk">
+        <div className="portk">
           <Outlet />
         </div>
       </div>
