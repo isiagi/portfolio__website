@@ -1,3 +1,4 @@
+import React from "react";
 import About from "../components/about";
 import Experience from "../components/experience/Experience";
 import Hero from "../components/hero/Hero";
@@ -6,6 +7,10 @@ import Services from "../components/services/Services";
 import Video from "../components/video/Video";
 
 function HomePage() {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Hero />

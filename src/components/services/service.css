@@ -20,6 +20,7 @@
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
+  /* margin: 0 auto; */
 }
 
 .service__icon {
@@ -41,7 +42,8 @@
   color: rgb(60, 59, 59);
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  margin: 0 auto;
 }
 
 .service__button{
@@ -51,4 +53,8 @@
 
 .service__iconz {
   margin-right: 1rem;
+}
+
+.service__group {
+  padding-left: 3rem;
 }

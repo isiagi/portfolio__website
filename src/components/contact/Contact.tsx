@@ -5,10 +5,15 @@ import { HiOutlineMail } from "react-icons/hi";
 import "./contact.css";
 import Button from "../button/Button";
 import Min from "../min/Min";
+import React from "react";
 
 type Props = {};
 
 function Contact({}: Props) {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="contact__container">
       <Min name="Contact" />

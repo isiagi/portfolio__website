@@ -4,10 +4,15 @@ import Min from "../../components/min/Min";
 import DownloadButton from "../../components/button/DownloadButton";
 
 import "./portfolio.css"
+import React from "react";
 
 type Props = {};
 
 function Portfolio({}: Props) {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="portfolio__container">
       <Min name="Portfolio" />

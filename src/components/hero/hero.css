@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -30,7 +31,8 @@
   line-height: 30px;
   margin-top: 1rem;
   margin-bottom: 3rem;
-  max-width: 600px;
+  max-width: 620px;
+  font-size: 1.2em;
 }
 
 .hero__second > img {
