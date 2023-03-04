@@ -1,3 +1,4 @@
+import "animate.css/animate.min.css";
 import Index from "./pages"
 
 function App() {

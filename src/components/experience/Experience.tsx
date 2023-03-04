@@ -16,9 +16,30 @@ import img15 from "../../assets/17.svg";
 import img16 from "../../assets/18.svg";
 import img17 from "../../assets/19.svg";
 import img18 from "../../assets/20.svg";
-
+import { AnimationOnScroll } from "react-animation-on-scroll";
 import "./experience.css";
 import Header from "../header/Header";
+
+const pics = [
+  img16,
+  img17,
+  img14,
+  img15,
+  img18,
+  img,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+];
 
 function Experience() {
   return (
@@ -29,24 +50,16 @@ function Experience() {
           para="Some of the tools I have use in development"
         />
         <div className="exp__flex">
-          <img className="exp__img" src={img16} alt="" />
-          <img className="exp__img" src={img17} alt="" />
-          <img className="exp__img" src={img14} alt="" />
-          <img className="exp__img" src={img15} alt="" />
-          <img className="exp__img" src={img18} alt="" />
-          <img className="exp__img" src={img} alt="" />
-          <img className="exp__img" src={img2} alt="" />
-          <img className="exp__img" src={img3} alt="" />
-          <img className="exp__img" src={img4} alt="" />
-          <img className="exp__img" src={img5} alt="" />
-          <img className="exp__img" src={img6} alt="" />
-          <img className="exp__img" src={img7} alt="" />
-          <img className="exp__img" src={img8} alt="" />
-          <img className="exp__img" src={img9} alt="" />
-          <img className="exp__img" src={img10} alt="" />
-          <img className="exp__img" src={img11} alt="" />
-          <img className="exp__img" src={img12} alt="" />
-          <img className="exp__img" src={img13} alt="" />
+          {pics.map((img) => (
+            <AnimationOnScroll
+              initiallyVisible={true}
+              delay={2000}
+              animateIn="animate__wobble"
+            >
+              <img className="exp__img" src={img} alt="" />
+            </AnimationOnScroll>
+          ))}
+          
         </div>
       </div>
     </div>

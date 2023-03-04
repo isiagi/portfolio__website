@@ -1,7 +1,6 @@
-import React from "react";
-import Header from "../header/Header";
 import DownloadButton from "../button/DownloadButton";
 import aboutImage from "../../assets/about_isiagi_geofrey.jpg";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 import "./about.css";
 import Button from "../button/Button";
@@ -21,30 +20,43 @@ function About({ Notpage }: Props) {
             </h2>
             <div className="about__all">
               <div className="about__text1">
-                <p className="about__para para1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                  dapibus leo.
-                </p>
-                <p className="about__para para1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                  <p className="about__para para1">
+                    Am a Business Statistican turned Software Developer located
+                    in Uganda. The passion for Tech led me to wanting to know
+                    how really tech works hence Learning how to Code and being
+                    an open learner. I have engaged in self-studies, Boot-camps,
+                    online course and video to see that I get some fundamental
+                    understanding software development and tech in General.
+                  </p>
+                </AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                  <p className="about__para para1">
+                    I strongly believe if there is atleast Grit, We can do
+                    anything.
+                  </p>
+                </AnimationOnScroll>
               </div>
               <div className="about__text2">
-                <p className="about__para para1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
-                </p>
-                <p className="about__para">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                  <p className="about__para para1">
+                    I love contributing to open-source and I have learnt some
+                    basics / fundamentals of Data science and AI. I think AI is
+                    Cool.
+                  </p>
+                </AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeInLeftBig">
+                  <p className="about__para">
+                    Am open to work currently as Web Developer and Cloud
+                    Developer. Am still learning : Mobile Development but
+                    hireable and other technologies that I will find interesting
+                    along the tech path.
+                  </p>
+                </AnimationOnScroll>
               </div>
             </div>
             {Notpage ? (
-              <Button name="Learn More" />
+              <Button name="View Portfolio" />
             ) : (
               <DownloadButton
                 name="Download CV"
@@ -53,7 +65,13 @@ function About({ Notpage }: Props) {
             )}
           </div>
           <div className="about__image">
-            <img src={aboutImage} alt="hero_isiagi_geofrey.jpg" />
+            <AnimationOnScroll
+              initiallyVisible={true}
+              duration={5}
+              animateIn="animate__swing"
+            >
+              <img src={aboutImage} alt="hero_isiagi_geofrey.jpg" />
+            </AnimationOnScroll>
           </div>
         </div>
       </div>

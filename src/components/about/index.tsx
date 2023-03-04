@@ -9,9 +9,9 @@ function Index({}: Props) {
     <div>
       <Header
         text="About Me"
-        para="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        para="Summary of who I am"
       />
-      <About Notpage={true}/>
+      <About Notpage={false}/>
     </div>
   );
 }
