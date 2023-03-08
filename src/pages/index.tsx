@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Contact from "../components/contact/Contact";
+import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import AboutPage from "./about/AboutPage";

@@ -3,9 +3,11 @@ import { GoLocation } from "react-icons/go";
 import { HiOutlineMail } from "react-icons/hi";
 
 import "./contact.css";
-import Button from "../button/Button";
-import Min from "../min/Min";
-import React from "react";
+import { Butto } from "../../components/button/Button";
+import Min from "../../components/min/Min";
+import React, { useRef } from "react";
+
+import emailjs from "@emailjs/browser";
 
 type Props = {};
 
@@ -13,6 +15,36 @@ function Contact({}: Props) {
   React.useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const form = useRef<HTMLFormElement>(null!);
+
+  const handleSubmit = (event: any) => {
+    event.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_fev6wn7",
+        "template_pxso46i",
+        form.current,
+        "QU9PW2vVvLMnJzkwn"
+      )
+      .then(
+        (result) => {
+          console.log("sent", result.text);
+          if (result.text === "OK") {
+            alert("Your Message has been submit");
+            form.current.reset();
+          } else {
+            alert("Error happened when submitting the form");
+          }
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    event.value = "";
+  };
 
   return (
     <div className="contact__container">
@@ -44,22 +76,24 @@ function Contact({}: Props) {
             <div className="form__link"></div>
           </div>
 
-          <form>
+          <form ref={form} onSubmit={handleSubmit}>
             <div className="form__inputz">
               <input
                 type="text"
                 className="form__input"
                 placeholder="Enter your name"
+                name="name"
               />
               <br />
               <input
                 type="email"
                 className="form__input"
                 placeholder="Enter your email"
+                name="email"
               />
               <br />
               <textarea
-                name=""
+                name="message"
                 id=""
                 cols={30}
                 rows={10}
@@ -67,7 +101,7 @@ function Contact({}: Props) {
                 placeholder="Enter your message"
               ></textarea>
             </div>
-            <Button name="Send Message" />
+            <Butto name="Send Message" />
           </form>
         </div>
       </div>
