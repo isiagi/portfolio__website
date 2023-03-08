@@ -6,7 +6,6 @@ function Index() {
     <div>
       <Header text="Portfolio" para="hello there" />
       <div className="middle">
-
       <Port />
       </div>
     </div>

@@ -20,6 +20,10 @@
   border-radius: 5px;
 }
 
+.port__item:hover {
+  transform: scale(1.01);
+}
+
 /* .port__img {
   height: 200px;
 } */
