@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DownloadButton from "../button/DownloadButton"
 import "./footer.css";
 
@@ -8,9 +9,9 @@ function Footer({}: Props) {
     <div className="footer__container">
       <div className="middle footer__wrapper">
         <div className="footer__links">
-          <p>Home</p>
-          <p>About</p>
-          <p>Portfolio</p>
+          <Link to='/'><p>Home</p></Link>
+          <Link to='/about'><p>About</p></Link>
+          <Link to='/portfolio'><p>Portfolio</p></Link>
         </div>
         <div className="logo">
           <h1 style={{ fontWeight:"500" }}>Geofrey Isiagi</h1>

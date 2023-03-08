@@ -45,7 +45,7 @@ function Services({}: Props) {
             </div>
 
             <div className="service__button">
-              <Button name="Hire Me" />
+              <Button name="Hire Me" to="/contact"/>
             </div>
           </AnimationOnScroll>
           </div>
@@ -74,7 +74,7 @@ function Services({}: Props) {
               </p>
             </div>
             <div className="service__button">
-              <Button name="Hire Me" />
+              <Button name="Hire Me" to="/contact"/>
             </div>
             </AnimationOnScroll>
           </div>
@@ -104,7 +104,7 @@ function Services({}: Props) {
               </p>
             </div>
             <div className="service__button">
-              <Button name="Hire Me" />
+              <Button name="Hire Me" to="/contact"/>
             </div>
             </AnimationOnScroll>
           </div>

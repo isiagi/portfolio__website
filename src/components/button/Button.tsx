@@ -4,15 +4,30 @@ import "./button.css";
 type Props = {
   name: string;
   to?: string;
-  downloadable?: boolean;
+  path?: boolean;
+  link?: string;
 };
 
-function Button({ name, to, downloadable }: Props) {
+function Button({ name, to, path = true, link }: Props) {
   return (
     <div>
-      <Link to={`${to}`}>
-        <button className="button__btn">{name}</button>
-      </Link>
+      {path ? (
+        <Link to={`${to}`}>
+          <button className="button__btn">{name}</button>
+        </Link>
+      ) : (
+        <a target="_blank" href={`${link}`}>
+          <button className="button__btn">{name}</button>
+        </a>
+      )}
+    </div>
+  );
+}
+
+export function Butto({ name, to, path = true, link }: Props) {
+  return (
+    <div>
+      <button className="button__btn" type="submit">{name}</button>
     </div>
   );
 }

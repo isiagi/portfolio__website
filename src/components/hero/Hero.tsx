@@ -14,7 +14,7 @@ function Hero() {
             Javascript. I also have some learning experience in Mobile
             development and Data Science / AI
           </p>
-          <Button name="Learn More" />
+          <Button name="Learn More" to="/about"/>
         </div>
         {/* <div className="hero__second">
           <img src={heroImage} alt="hero_isiagi_geofrey.jpg" />

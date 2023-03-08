@@ -56,7 +56,7 @@ function About({ Notpage }: Props) {
               </div>
             </div>
             {Notpage ? (
-              <Button name="View Portfolio" />
+              <Button name="View Portfolio"  to="/portfolio"/>
             ) : (
               <DownloadButton
                 name="Download CV"
