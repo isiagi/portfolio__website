@@ -60,7 +60,7 @@ function About({ Notpage }: Props) {
             ) : (
               <DownloadButton
                 name="Download CV"
-                to="/files/Geofrey_Isiagi_CV (8).pdf"
+                to="/files/Geofrey_Isiagi_Resume.pdf"
               />
             )}
           </div>

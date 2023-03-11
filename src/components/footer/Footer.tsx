@@ -18,7 +18,7 @@ function Footer({}: Props) {
         </div>
         <div className="last">
           <h2 style={{ marginBottom: "1rem",fontWeight:"500" }}>isiagigeofrey0@gmail.com</h2>
-          <DownloadButton name="Download CV" to="/files/Geofrey_Isiagi_CV (8).pdf"/>
+          <DownloadButton name="Download CV" to="/files/Geofrey_Isiagi_Resume.pdf"/>
         </div>
       </div>
       <div className="footer__last">

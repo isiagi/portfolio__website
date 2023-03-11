@@ -22,7 +22,7 @@ function Portfolio({}: Props) {
           <Button name="YouTube" to="/portfolio/youtube" />
           <DownloadButton
             name="Download CV"
-            to="/files/Geofrey_Isiagi_CV (8).pdf"
+            to="/files/Geofrey_Isiagi_Resume.pdf"
           />
         </div>
         <div className="portk">
