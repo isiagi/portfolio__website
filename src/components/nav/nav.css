@@ -34,6 +34,10 @@
   color: #002D5B;
 }
 
+.nav__ul ul li:hover {
+  color: #E95A53;
+}
+
 .nav__icons {
   display: none;
 }

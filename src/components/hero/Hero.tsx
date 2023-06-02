@@ -10,7 +10,7 @@ function Hero() {
         <h1 className="hero__h1">I am Geofrey Isiagi</h1>
           <h1 className="hero__h1">Am a Developer</h1>
           <p className="hero__para">
-            I do fullstack Web, Cloud Development with Proficience in
+            I do fullstack Web, Cloud Development with Proficiency in
             Javascript. I also have some learning experience in Mobile
             development and Data Science / AI
           </p>

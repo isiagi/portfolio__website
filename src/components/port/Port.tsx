@@ -4,6 +4,8 @@ import img2 from "../../assets/port1.png";
 import img3 from "../../assets/port2.png";
 import img4 from "../../assets/port3.png";
 import img5 from "../../assets/port4.png";
+import img6 from "../../assets/book.png";
+import img7 from "../../assets/tour.png";
 import Button from "../button/Button";
 
 type Props = {};
@@ -33,14 +35,12 @@ const data = [
   },
   {
     id: 3,
-    image: img3,
-    para: ` This is a website serving information about HappiTravel. The
-    website was created with ReactJS and CSS with some more React
-    libraries.`,
+    image: img6,
+    para: ` This is a fullstack MERN website creating a book shop.This was a job application test requirement. I used Chakra for styling.`,
     view: "View",
     github: "GitHub",
-    viewLink: "https://happitravel.vercel.app/",
-    githubLink: "https://github.com/isiagi/happitravel",
+    viewLink: "https://bookshop-isiagi.vercel.app/",
+    githubLink: "https://github.com/isiagi/bookshop/tree/main",
   },
   {
     id: 4,
@@ -62,6 +62,26 @@ const data = [
     github: "GitHub",
     viewLink: "https://portfolio-website-isiagi.vercel.app/",
     githubLink: "https://github.com/isiagi/portfolio__website",
+  },
+  {
+    id: 6,
+    image: img7,
+    para: ` This is almost a Homepage of a website I create when making a tutorial. The site was created in React/Typescript and CSS.`,
+    view: "View",
+    github: "GitHub",
+    viewLink: "https://travel-website-rust-delta.vercel.app/",
+    githubLink: "https://github.com/isiagi/travel__website/tree/master",
+  },
+  {
+    id: 7,
+    image: img3,
+    para: ` This is a website serving information about HappiTravel. The
+    website was created with ReactJS and CSS with some more React
+    libraries.`,
+    view: "View",
+    github: "GitHub",
+    viewLink: "https://happitravel.vercel.app/",
+    githubLink: "https://github.com/isiagi/happitravel",
   },
 ];
 

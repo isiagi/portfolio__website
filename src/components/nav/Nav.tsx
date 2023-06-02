@@ -20,17 +20,17 @@ function Nav() {
         <div className={`nav__ul ${open ? "active" : ""}`}>
           <ul>
             <Link to="/">
-              <li>Home</li>
+              <li onClick={() => setOpen(false)}>Home</li>
             </Link>
             <Link to="/about">
-              <li>About</li>
+              <li onClick={() => setOpen(false)}>About</li>
             </Link>
             <Link to="/portfolio">
-              <li>Portfolio</li>
+              <li onClick={() => setOpen(false)}>Portfolio</li>
             </Link>
           </ul>
         </div>
-        <Button name="Hire Me" to="/contact" />
+        <Button name="Contact Me" to="/contact" />
         <div className="nav__icons">
           {open ? (
             <ImCancelCircle

@@ -52,21 +52,25 @@ function Contact({}: Props) {
       <div className="middle contact__wrapper">
         <img src="" alt="" />
         <div className="contact__grid">
-          <div className="contact__item">
-            <ImMobile2 className="contact__icon" />
-            <h3 className="contact__detail">+256777963365</h3>
-            <p className="contact__lo">Monday - Friday from 7am - 5pm</p>
-          </div>
+          <a href="tel:+256777963365">
+            <div className="contact__item">
+              <ImMobile2 className="contact__icon" />
+              <h3 className="contact__detail">+256777963365</h3>
+              <p className="contact__lo">Monday - Friday from 7am - 5pm</p>
+            </div>
+          </a>
           <div className="contact__item">
             <GoLocation className="contact__icon" />
             <h3 className="contact__detail">Kampala, Uganda</h3>
             <p className="contact__lo">Central Division</p>
           </div>
-          <div className="contact__item">
-            <HiOutlineMail className="contact__icon" />
-            <h3 className="contact__detail">isiagigeofrey0@gmail.com</h3>
-            <p className="contact__lo">Contact me every time!</p>
-          </div>
+          <a href="mailto:isiagigeofrey0@gmail.com" target="_blank">
+            <div className="contact__item">
+              <HiOutlineMail className="contact__icon" />
+              <h3 className="contact__detail">isiagigeofrey0@gmail.com</h3>
+              <p className="contact__lo">Contact me every time!</p>
+            </div>
+          </a>
         </div>
       </div>
       <div className="contact__form">
