@@ -6,6 +6,7 @@ import img4 from "../../assets/port3.png";
 import img5 from "../../assets/port4.png";
 import img6 from "../../assets/book.png";
 import img7 from "../../assets/tour.png";
+import img8 from "../../assets/weather.png";
 import Button from "../button/Button";
 
 type Props = {};
@@ -74,6 +75,15 @@ const data = [
   },
   {
     id: 7,
+    image: img8,
+    para: ` This is a Weather Web App created in React with Vite and CSS for styling. This app can show the current weather of any city in the world`,
+    view: "View",
+    github: "GitHub",
+    viewLink: "https://weather-app1-taupe.vercel.app/",
+    githubLink: "https://github.com/isiagi/weather-app1/",
+  },
+  {
+    id: 8,
     image: img3,
     para: ` This is a website serving information about HappiTravel. The
     website was created with ReactJS and CSS with some more React
