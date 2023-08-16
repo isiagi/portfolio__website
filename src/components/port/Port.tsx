@@ -8,6 +8,7 @@ import img6 from "../../assets/book.png";
 import img7 from "../../assets/tour.png";
 import img8 from "../../assets/weather.png";
 import Button from "../button/Button";
+import apply from "../../assets/apply.png";
 
 type Props = {};
 
@@ -22,6 +23,15 @@ const data = [
     github: "GitHub",
     viewLink: "https://www.hitexconsortium.com/",
     githubLink: "https://github.com/isiagi/medical",
+  },
+  {
+    id: 20,
+    image: apply,
+    para: `This a job application tracking Web App. I enable you track your sent job application.It uses Nextjs, Tailwind CSS, Antd-for tables and Clerk Auth for authentication.`,
+    view: "View",
+    github: "GitHub",
+    viewLink: "https://apply-track.vercel.app/",
+    githubLink: "https://github.com/isiagi/apply_track/tree/main",
   },
   {
     id: 2,
